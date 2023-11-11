@@ -3,8 +3,18 @@ version: '3'
 services:
   nodejs:
     #fill out the configuration here
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: node-web-app
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/app
     networks:
       - app-network
+    depends_on:
+      - webserver
   
   #the nginx configuration is given below
   #the website will run on localhost:80 
@@ -28,7 +38,7 @@ volumes:
     driver_opts:
       type: none
       #fill out your absolute path to your folder here
-      device: /absolute/path/to/web/template/folder
+      device: /home/node/app
       o: bind
 
 networks:

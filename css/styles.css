@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Optima;
-  background-color: #FCF7FF;
+  background-color: #E6F2FF;
 }
 
 .center {
@@ -23,24 +23,20 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: #655560;
+  background: #1A5276;
   padding: 2%;
   text-align: center;
-
 }
 
 .panel {
-  background-color: #655560;
+  background-color: #1A5276;
   color: #FCF7FF;
-
   width: 100%;
   height: 30vh;
-
   margin-left: 2%;
   margin-right: 10%;
   padding-left: 20px;
   padding-right: 20px;
-
 }
 
 .flex-container {
@@ -50,7 +46,7 @@ header {
 
 footer {
   display: flex;
-  background-color: #655560;
+  background-color: #1A5276;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -59,9 +55,9 @@ footer {
   width: 100%;
   justify-content: center;
   align-items: center;
-
-
+  color: white;
 }
+
 
 .leftFooter {
   color: #655560;
@@ -69,6 +65,10 @@ footer {
   margin: auto;
   padding-right: 30%;
   color: white;
+  font-size: 120%;
+}
+
+.leftFooter, .rightFooter, .rightFooterr {
   font-size: 120%;
 }
 
@@ -139,19 +139,14 @@ section {
 section:nth-child(1) {
   color: #e0ffff;
   background-color: #e0ffff;
-
 }
 
 section:nth-child(2) {
-
-  background-color: #FCF7FF;
-
-
+  background-color: #E6F2FF;
 }
 
 section:nth-child(3) {
-
-  background: #C4CAD0
+  background: #AED6F1;
 }
 
 h2 {
@@ -167,7 +162,7 @@ h3 {
 /* Add a black background color to the top navigation */
 .topnav {
   overflow: hidden;
-  background-color: #655560;
+  background-color: #1A5276;
 }
 
 /* Style the links inside the navigation bar */
@@ -182,13 +177,13 @@ h3 {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #AED6F1;
   color: black;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #878C8F;
+  background-color: #5499C7;
   color: white;
 }
 
@@ -212,8 +207,7 @@ h3 {
 .same-line {
   display: flex;
   justify-content: space-between;
-  background-color: #655560;
-
+  background-color: #1A5276;
 }
 
 .container {
@@ -265,6 +259,7 @@ h3 {
   width: 33.33%;
   padding: 1%;
   height: 50vh;
+  background-color: #D6EAF8;
   /* Should be removed. Only for demonstration */
 }
 
