@@ -16,4 +16,4 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            git clone https://github.com/Nxc-R/cmsc389T-web-template.git
+            git clone https://github.com/Nxc-R/Nxc-R.github.io.git
