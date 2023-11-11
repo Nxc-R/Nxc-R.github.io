@@ -17,4 +17,4 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             unalias rm
-            rm -rf cmsc389T-web-template
+            rm -rf https://github.com/Nxc-R/Nxc-R.github.io.git
